@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
+</head>
+<body>
+    <div class="dashboard">
+        <div class="topbar">
+            <div class="logo">
+                <i class="ri-cloud-line"></i>
+                <span>SSC_LTD</span>
+            </div>
+            <div class="search">
+                <i class="ri-search-line"></i>
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="user-profile">
+                <img src="assets/av3.png" alt="profile">
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="sidebar-top">
+                <a href="" class="active"><i class="ri-dashboard-line"></i>Dashboard</a>
+                <a href=""><i class="ri-team-line"></i>Customers</a>
+                <a href=""><i class="ri-calendar-line"></i>Meetings</a>
+                <a href=""><i class="ri-mail-line"></i>Messages</a>
+                <a href=""><i class="ri-pie-chart-line"></i>Analytics</a>
+            </div>
+            <div class="sidebar-bottom">
+                <a href=""><i class="ri-question-line"></i>Help</a>
+                <a href=""><i class="ri-settings-line"></i>Settings</a>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="cards">
+                <div class="card">
+                    <i class="ri-user-line"></i>
+                    <h3>Total Customers</h3>
+                    <p>1,235</p>
+                </div>
+                <div class="card">
+                    <i class="ri-shopping-bag-line"></i>
+                    <h3>Total Sales</h3>
+                    <p>$54,321</p>
+                </div>
+                <div class="card">
+                    <i class="ri-message-3-line"></i>
+                    <h3>Messages</h3>
+                    <p>42</p>
+                </div>
+                <div class="card">
+                    <i class="ri-line-chart-line"></i>
+                    <h3>Growth</h3>
+                    <p>+15.2%</p>
+                </div>
+            </div>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Customers</th>
+                            <th>Email</th>
+                            <th>Status</th>
+                            <th>Last Contact</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>John Smith</td>
+                            <td>john@example.com</td>
+                            <td><span class="status active">Active</span></td>
+                            <td>2025-04-23</td>
+                            <td><i class="ri-more-2-fill"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Sarah Johnson</td>
+                            <td>sarah@example.com</td>
+                            <td><span class="status pending">Pending</span></td>
+                            <td>2025-04-14</td>
+                            <td><i class="ri-more-2-fill"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Mike Wilson</td>
+                            <td>mike@example.com</td>
+                            <td><span class="status inactive">Inactive</span></td>
+                            <td>2025-04-12</td>
+                            <td><i class="ri-more-2-fill"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Emily Davis</td>
+                            <td>emily@example.com</td>
+                            <td><span class="status active">Active</span></td>
+                            <td>2025-04-11</td>
+                            <td><i class="ri-more-2-fill"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Alex Tummer</td>
+                            <td>alex@example.com</td>
+                            <td><span class="status pending">Pending</span></td>
+                            <td>2025-04-10</td>
+                            <td><i class="ri-more-2-fill"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="activity-feed">
+                <h2>Recent Activities</h2>
+                <div class="activity-items">
+                    <div class="activity-item">
+                        <i class="ri-phone-line"></i>
+                        <div class="activity-details">
+                            <h4>Call with John Smith</h4>
+                            <p>Discussed new product requirements</p>
+                            <span class="activity-time">2 hours</span>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <i class="ri-mail-send-line"></i>
+                        <div class="activity-details">
+                            <h4>Email Campaign Sent</h4>
+                            <p>Qyarter and Promotion to 1,234 customers</p>
+                            <span class="activity-time">5 hours ago</span>
+                        </div>
+                    </div>
+                    <div class="activity-item">
+                        <i class="ri-phone-line"></i>
+                        <div class="activity-details">
+                            <h4>Support Ticket Resolved</h4>
+                            <p>Technical issue resolved for Sarah Johnson</p>
+                            <span class="activity-time">1 day ago</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
